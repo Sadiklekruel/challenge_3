@@ -1,0 +1,33 @@
+@media screen and (min-width : 380px) and (max-width : 999px){
+
+    html {
+        margin: 0;
+        padding: 0;
+    }
+    header,
+    main,
+    footer {
+        width:100%;
+
+    }
+
+    h1 {
+        width:100%;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+    nav {
+        display: block;
+    }
+    li {
+        text-align: center;
+        padding-top: 1em;
+        width: 30%;
+    }
+    p,
+    figure,
+    h2, {
+        width: 100%;
+    }
+    }

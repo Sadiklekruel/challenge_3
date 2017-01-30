@@ -1,0 +1,33 @@
+@media (max-width : 380px) {
+
+    html {
+        margin: 0;
+        padding: 0;
+    }
+    header,
+    main,
+    footer {
+        width:100%;
+
+    }
+
+    h1 {
+        width:100%;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+    nav {
+        display: block;
+    }
+    li {
+        display:block;
+        text-align: center;
+        padding-top: 1em;
+    }
+    p,
+    figure,
+    h2, {
+        width: 100%;
+    }
+}
