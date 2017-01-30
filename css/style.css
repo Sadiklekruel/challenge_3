@@ -3,22 +3,34 @@ html {
     margin: 0;
 }
 body {
-    width:1000px;
     background-color: white;
+    font-family: "News Cycle";
+    font-size: 17px;
+}
+header,
+main,
+footer {
+    width:1000px;
     margin: auto;
+
 }
 header {
     background-color: #ededed;
 }
 h1 {
-    padding-left: 2em;
+    padding-left: 1em;
     display: inline-block;
     color: #2e434a;
-    width: 25%;
+    width: %;
+    font-size: 55px;
 }
-nav {
+nav{
     display: inline-block;
 
+}
+ul{
+    margin: 0;
+    padding: 0;
 }
 li{
     display: inline-block;
@@ -29,4 +41,51 @@ li{
 a {
     text-decoration: none;
     color: #2e434a;
+}
+
+#etiam {
+    background-image: url('../images/banner.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #00ba63;
+    text-align: center;
+    color: white;
+    padding: 3em 0;
+}
+figure {
+    display: inline-block;
+    margin: 1em;
+
+}
+img {
+    border-radius: 50%;
+
+}
+
+h2 {
+    padding-top: 2em;
+    font-size: 22px;
+}
+
+p {
+    padding-top: 2em;
+}
+
+button {
+    width: 260px;
+    height: 70px;
+    background-color: #2c414a;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 2em;
+}
+
+
+.colorlink {
+    color: #27AE61;
+}
+a:hover {
+    color: #27AE61;
 }
