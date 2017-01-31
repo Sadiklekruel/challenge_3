@@ -10,11 +10,15 @@ body {
 header,
 main,
 footer {
-    width: 1000px;
+    width: 100%;
     margin: auto;
 }
 header {
     background-color: #ededed;
+}
+div {
+    width: 1000px;
+    margin: auto;
 }
 h1 {
     padding-left: 1em;
@@ -22,6 +26,7 @@ h1 {
     color: #2e434a;
     width: %;
     font-size: 55px;
+
 }
 nav{
     display: inline-block;
@@ -69,6 +74,8 @@ h2 {
 
 p {
     padding-top: 2em;
+    width: 1000px;
+    margin: auto;
 }
 
 button {
@@ -96,6 +103,7 @@ a:hover {
 }
 #nulla p {
     color: #656565;
+    width: 1000px;
 }
 #nulla button {
     background-color: #00bb63;
@@ -124,6 +132,9 @@ footer {
 footer p {
     margin: 0;
     padding: 2em 0;
+    width: 1000px;
+    margin: auto;
+
 }
 span {
     color: #2b3f48;

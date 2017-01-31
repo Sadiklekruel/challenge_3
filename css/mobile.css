@@ -3,6 +3,7 @@
     html {
         margin: 0;
         padding: 0;
+
     }
     header,
     main,
@@ -16,18 +17,30 @@
         padding: 0;
         margin: 0;
         text-align: center;
+        padding-top: 1em;
     }
     nav {
         display: block;
+        padding-bottom: 2em;
     }
     li {
         display:block;
         text-align: center;
         padding-top: 1em;
     }
+    img{
+        width: 50px;
+        height: 50px;
+    }
+    figure {
+        margin: 0;
+    }
+    div,
+    h2,
     p,
-    figure,
-    h2, {
+    #nulla p,
+    footer p {
+        margin: 0;
         width: 100%;
     }
 }

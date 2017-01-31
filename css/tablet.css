@@ -8,7 +8,6 @@
     main,
     footer {
         width:100%;
-
     }
 
     h1 {
@@ -16,18 +15,36 @@
         padding: 0;
         margin: 0;
         text-align: center;
+        padding-top: 1em;
     }
     nav {
         display: block;
+        padding: 1em 0;
+        text-align: center;
+        width: 100%;
+
     }
     li {
         text-align: center;
+        padding-left: 10px;
         padding-top: 1em;
-        width: 30%;
     }
+    img{
+        width: 70%;
+        height: 70%;
+    }
+    figure {
+        width: 30%;
+        height: 30%;
+        margin: 0;
+    }
+
+    div,
+    h2,
     p,
-    figure,
-    h2, {
+    #nulla p,
+    footer p {
+        margin: auto;
         width: 100%;
     }
-    }
+}
