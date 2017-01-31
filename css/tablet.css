@@ -19,7 +19,8 @@
     }
     nav {
         display: block;
-        padding: 1em 0;
+        padding-top: 1em;
+        padding-bottom: 2em;
         text-align: center;
         width: 100%;
 
@@ -30,8 +31,8 @@
         padding-top: 1em;
     }
     img{
-        width: 70%;
-        height: 70%;
+        width: 100%;
+        height: 100%;
     }
     figure {
         width: 30%;
@@ -45,6 +46,6 @@
     #nulla p,
     footer p {
         margin: auto;
-        width: 100%;
+        width: 90%;
     }
 }
