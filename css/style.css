@@ -126,7 +126,7 @@ a:hover {
 footer {
     text-align: center;
     color: #656565;
-    background-color: #ededed;
+    background-color: #00bb63;
 
 }
 footer p {
@@ -141,20 +141,25 @@ span {
 }
 #ten {
     background-color: #ededed;
+    padding: 3em 0;
+    width: 100%;
+
 }
 #ten form {
     border-left: 2px solid #F4F4F4;
-    width: 1000px;
+    width: 960px;
     margin: auto;
     box-sizing: border-box;
 }
 #ten div {
     background-color: #00bb63;
-    width: 1000px;
+    width: 900px;
     color: #FFFFFF;
     border-radius: 10px 10px 0 0;
-    padding-left: 2em;
-    padding-top: 0.5em;
+    padding: 2em 2em;
+}
+#ten h2{
+    padding: 0;
 }
 #ten .numero {
     display: inline-block;
@@ -173,18 +178,14 @@ span {
     background-color: #F8F8F8;
     border: none;
     border-radius: 10px;
-    padding: 2em;
-    margin-left: 2em;
-    margin-right: 2em;
-    margin-top: 1em;
-    margin-bottom: 1em;
+    padding: 1em;
 }
 #ten label {
     margin-right: 8em;
     color:#8F8F8F;
 }
 #ten #fullname10,#address10,#email10,#tel10,#password10,#confirm10 {
-    width: 98%;
+    width: 95%;
     margin-bottom: 2em;
     background-color: #FFFFFF;
 
@@ -198,8 +199,8 @@ span {
 }
 #ten #checkbox {
     display: inline-block;
-    padding-left: 200px;
+
 }
 #ten input[type="checkbox"]{
-
+    margin-top: 2em;
 }

@@ -40,10 +40,28 @@
         margin: 0;
     }
 
-    div,
+    div{
+        width: 70%;
+        margin: auto;
+    }
+    #ten {
+        width: 100%;
+    }
+    #ten div {
+        width: 83%;
+        margin: 0;
+    }
+    fieldset {
+        width: 90%;
+        margin: 0;
+    }
+    #ten input[type="submit"] {
+        margin-top: 2em;
+    }
     h2,
     p,
     #nulla p,
+    #ten form,
     footer p {
         margin: auto;
         width: 90%;
